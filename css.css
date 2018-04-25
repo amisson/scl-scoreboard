@@ -3,7 +3,7 @@ body {
 }
 
 .overlay-container {
-  height: 100%;
+  height: 50%;
 }
 
 table {
@@ -56,5 +56,6 @@ tr {
 }
 
 .operator {
-  height: 100%;
+  height: 50%;
+  background-color: #f0f0f0;
 }
