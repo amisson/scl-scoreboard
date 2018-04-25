@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: green;
+}
+
+.overlay-container {
+  height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 491px;
+  height: 126px;
+  margin-left: 50px;
+}
+
+tr {
+  height: 63px;
+  background: url(images/score-bg.png) no-repeat;
+  -webkit-filter: drop-shadow(0 3px 3px rgba(4,34,37,.6));
+  filter: drop-shadow(0 3px 3px rgba(4,34,37,.6)));
+}
+
+#rank-badge {
+  width: 45px;
+}
+
+#rank-badge img {
+  position: relative;
+  left: -23px;
+  transform: scale(1.4);
+  transform-origin: 50% 50%;
+}
+
+#player-name {
+  position: relative;
+  bottom: -3px;
+  width: 280px;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #380a15;
+  text-transform: uppercase;
+}
+
+#player-score {
+  position: relative;
+  bottom: -3px;
+  width: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: #148675;
+}
+
+#player-role {
+  width: 96px;
+}
